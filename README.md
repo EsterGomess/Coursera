@@ -10,3 +10,4 @@ git push origin master
 
 Recuperar mudanças:
 git fetch origin master
+git pull
