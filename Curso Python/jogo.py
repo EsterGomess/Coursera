@@ -9,58 +9,64 @@ def computador_escolhe_jogada (n,m):
 		return m
 	else:
 		return n%(m+1)
-	print ("O computador tirou", m,"peças")
-	print ("Agora restam", n, "peças")
 	
 def jogador_escolhe_jogada(n,m):
 	while True:
 		jogada = input ("Quantas peças você vai tirar?")
 		if jogada<=m:
-			print ("Você tirou", jogada,"peças")
-			print ("Agora resta apenas",n - jogada,"peças no tabuleito")
 			return jogada
 		else: 
 			print ("Oops! Jogada inválida! Tende de Novo")
-			jogador_escolhe_jogada(n,m)
+			pass
+			
 def partida():
 	primeiro=False
-	n = input ("Quantas pecas? ")
-	m = input ("Limite de pecas por jogada? ")
+	n = input ("Quantas peças? ")
+	m = input ("Limite de peças por jogada? ")
 	if n%(m+1):
 		primeiro=True
 		print ("Computador começa")
 	while n>0:
 		if primeiro:
 			pc=computador_escolhe_jogada(n,m)
-			print ("O computador tirou", pc, "pecas")
+			print ("O computador tirou", pc, "peças")
 			n=n-pc
-			print ("Agora restam ", n, " pecas no tabuleiro")
+			if (n>0):
+				print ("Agora restam ", n, " peças no tabuleiro")
 			if n==0:
 				break
 			jg=jogador_escolhe_jogada(n,m)
-			print ("Voce tirou", jg, "pecas")
+			print ("Voce tirou", jg, "peças")
 			n=n-jg
-			print ("Agora restam ", n, " pecas no tabuleiro")
+			if (n>0):
+				print ("Agora restam ", n, " peças no tabuleiro")
 		else:
-			pc=jogador_escolhe_jogada(n,m)
-			print ("Voce tirou", jg, "pecas")
+			jg=jogador_escolhe_jogada(n,m)
+			print ("Voce tirou", jg, "peças")
 			n=n-jg
-			print ("Agora restam ", n, " pecas no tabuleiro")
-			jg=computador_escolhe_jogada(n,m)
-			print ("O computador tirou", pc, "pecas")
+			if (n>0):
+				print ("Agora restam ", n, " peças no tabuleiro")
+			pc=computador_escolhe_jogada(n,m)
+			print ("O computador tirou", pc, "peças")
 			n=n-pc
-			print ("Agora restam ", n, " pecas no tabuleiro")
-	print ("O computador ganhou")
+			if (n>0):
+				print ("Agora restam ", n, " peças no tabuleiro")
+	print ("Fim do jogo! O computador ganhou!")
 
-if (mododejogo == 1):
-	partida()
-	
-if (mododejogo == 2):
+def campeonato():
 	print ("**** Rodada 1 ****")
 	partida()
 	print ("**** Rodada 2 ****")
 	partida()
 	print ("**** Rodada 3 ****")
 	partida()
-	print ("Final do campeonato")
-	print ("Placar : Voce 0 x 3 Computador")
+	print ("**** Final do campeonato ****")
+	print ("Placar : Você 0 x 3 Computador")
+
+if (mododejogo == 1):
+	partida()
+	
+if (mododejogo == 2):
+	campeonato()
+	
+
