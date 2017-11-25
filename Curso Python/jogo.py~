@@ -1,12 +1,13 @@
 # encoding: utf-8
 
+
 def computador_escolhe_jogada (n,m):
 	if n%(m+1)==0:
 		return m
 	else:
 		return n%(m+1)
 	
-def usuario_escolhe_jogada(n,m):
+def jogador_escolhe_jogada(n,m):
 	while True:
 		jogada = input ("Quantas peças você vai tirar?")
 		if jogada<=m:
@@ -31,13 +32,13 @@ def partida():
 				print ("Agora restam ", n, " peças no tabuleiro")
 			if n==0:
 				break
-			jg=usuario_escolhe_jogada(n,m)
+			jg=jogador_escolhe_jogada(n,m)
 			print ("Voce tirou", jg, "peças")
 			n=n-jg
 			if (n>0):
 				print ("Agora restam ", n, " peças no tabuleiro")
 		else:
-			jg=usuario_escolhe_jogada(n,m)
+			jg=jogador_escolhe_jogada(n,m)
 			print ("Voce tirou", jg, "peças")
 			n=n-jg
 			if (n>0):
