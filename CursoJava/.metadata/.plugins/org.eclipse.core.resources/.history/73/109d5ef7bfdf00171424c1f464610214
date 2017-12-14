@@ -1,0 +1,39 @@
+import java.util.HashMap;
+import java.util.Map;
+
+
+public class Pizza {
+	
+	float preco = 0;
+	int contadoringredientes;
+	
+	static Map<String, Integer> ingredientes = new HashMap<String,Integer>() ;
+	
+	public static void contabilizaingrediente (String ingrediente){
+		for(int i =0 ; i <= ingredientes.size() ;i++){
+			if (ingredientes.equals(ingrediente)){
+				ingredientes.put(ingrediente, valor ++);
+			}
+		}
+	}
+	
+	public void adicionaigrediente (String ingrediente){	
+		
+		contabilizaingrediente(ingrediente);
+	}
+	
+	public float getPreco(int ningredintes){
+		if (this.contadoringredientes <=2){
+			this.preco = 15;
+		}
+		if (this.contadoringredientes>= 3 || this.contadoringredientes<= 5 ){
+			this.preco = 20;
+		}
+		if (this.contadoringredientes> 5){
+			this.preco = 23;
+		}
+		return this.preco;
+	}	
+
+
+}

@@ -1,0 +1,30 @@
+
+public class Main {
+
+	
+	public static void main(String[] args) {
+		Pizza p1 = new Pizza();
+		Pizza p2 = new Pizza();
+		Pizza p3 = new Pizza();
+		
+		p1.adicionaigrediente("queijo");
+		p1.adicionaigrediente("queijo");
+		p1.adicionaigrediente("peperoni");
+		
+		p2.adicionaigrediente("anchovas");
+		p2.adicionaigrediente("queijo");
+		p2.adicionaigrediente("queijo");
+		
+		p3.adicionaigrediente("tomate");
+		p3.adicionaigrediente("cogumelos");
+		p3.adicionaigrediente("coxinha");
+		
+		Carrinhodecompras carro = new Carrinhodecompras();
+		carro.adicionaPizza(p1);
+		carro.adicionaPizza(p2);
+		carro.adicionaPizza(p3);
+
+		System.out.println();
+	}
+
+}

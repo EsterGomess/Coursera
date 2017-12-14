@@ -1,0 +1,23 @@
+
+public class Pizza {
+	float preco;
+	int ningredinetes;
+	
+	public void adicionaigrediente (String ingredientes){	
+		
+	}
+	
+	public float getPreco(int ningredintes){
+		if (this.ningredinetes <=2){
+			this.preco = 15;
+		}
+		if (this.ningredinetes>= 3 || this.ningredinetes<= 5 ){
+			this.preco = 20;
+		}
+		if (this.ningredinetes> 5){
+			this.preco = 23;
+		}
+		return this.preco;
+	}
+	
+}

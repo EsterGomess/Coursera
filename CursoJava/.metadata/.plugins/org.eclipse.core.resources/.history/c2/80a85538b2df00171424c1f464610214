@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class Carrinhodecompras {
+	static float precototal = 0;
+	
+	List<Pizza> listapizza = new ArrayList<Pizza>();
+	
+	public float calculaprecototal(){
+		for (int i=0;i<=listapizza.size();i++){
+			precototal=+listapizza.get(i).preco;
+		}
+		return precototal;
+	}
+	
+}

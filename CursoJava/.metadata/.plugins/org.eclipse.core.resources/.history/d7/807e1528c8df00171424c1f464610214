@@ -1,0 +1,30 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class Carrinhodecompras {
+	
+	
+	private List<Pizza> listapizza ;
+	
+	public Carrinhodecompras(){
+		listapizza = new ArrayList<Pizza>();
+	}
+	
+	public float calculaprecototal(){
+		float precototal = 0;
+		for (int i=0;i<listapizza.size();i++){
+			precototal=precototal+listapizza.get(i).getPreco();
+		}
+		return precototal;
+	}
+	
+	public void adicionaPizza(Pizza pizza){
+		if (pizza.temIngrediente()){
+			listapizza.add(pizza);
+		}else{
+			System.out.print("Não tem ingrediente");
+		}
+	}
+	
+}

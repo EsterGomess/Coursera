@@ -1,0 +1,20 @@
+
+public class Main {
+
+	
+	public static void main(String[] args) {
+		Pizza p1;
+		Pizza p2;
+		Pizza p3;
+		
+		p1.adicionaigrediente("queijo");
+		p1.adicionaigrediente("queijo");
+		p1.adicionaigrediente("peperoni");
+		
+		p2.adicionaigrediente("anchovas");
+		p2.adicionaigrediente("queijo");
+		p2.adicionaigrediente("queijo");
+
+	}
+
+}
