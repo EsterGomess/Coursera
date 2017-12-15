@@ -1,0 +1,40 @@
+
+public class ProdutoComTamanho extends Produto {
+
+	private int tamanho;
+
+	
+	// get e set
+	
+	public int getTamanho() {
+	return tamanho;
+	}
+
+	public void setTamanho(int tamanho) {
+		this.tamanho = tamanho;
+	}
+	
+	// sobrescrita do método equals
+		
+	@Override
+	public boolean equals(Object objeto){    
+      
+ 
+        if(objeto  instanceof Produto && ((Produto)objeto).codigo==this.getCodigo()) && ((Produto)objeto).tamanho == this.getTamanho()){
+ 
+            return true;   
+ 
+        }else{
+ 
+            return false;  
+        }
+}
+	
+	// sobrescrita do método hashcode
+	
+	@Override
+		public int hashCode(){
+	
+		return this.getCodigo() * 2;
+		}
+}

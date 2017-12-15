@@ -1,0 +1,50 @@
+
+public class Produto {
+	
+	public String nome;
+	public int codigo;
+	public float preço;
+	
+	// set e get dos atributos 
+	
+	public int getCodigo() {
+		return codigo;
+	}
+	public void setCodigo(int codigo) {
+		this.codigo = codigo;
+	}
+	public float getPreço() {
+		return preço;
+	}
+	public void setPreço(float preço) {
+		this.preço = preço;
+	}
+		
+	// sobrescrita do metodo equals
+	
+	@Override
+	public boolean equals(Object obj){    
+      
+ 
+        if(obj  instanceof Produto && ((Produto)obj).codigo==this.getCodigo()){
+ 
+            return true;   
+ 
+        }else{
+ 
+            return false;  
+        }
+}
+	
+	// sobrescrita do método hashcode
+	
+	
+	@Override
+		public int hashCode(){
+	
+		return this.getCodigo() * 2;
+		}
+
+	
+	
+}

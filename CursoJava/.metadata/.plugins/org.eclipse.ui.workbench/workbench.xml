@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="14" version="2.0">
+<workbench progressCount="15" version="2.0">
 <workbenchAdvisor/>
-<window height="876" width="767" x="832" y="24">
+<window height="875" maximized="true" width="761" x="231" y="24">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -14,10 +14,11 @@
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="156" y="30"/>
 <coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="40" y="30"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="137" y="30"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -32,22 +33,17 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="/home/ester/Documentos/Coursera/Curso Java/PreçodaPizza/src/Main.java" title="Main.java" tooltip="PreçodaPizza/src/Main.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PreçodaPizza/src/Main.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="272" selectionTopPixel="54"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="/home/ester/Documentos/Coursera/CursoJava/DiferentesTiposdeProdutos/src/Main.java" title="Main.java" tooltip="DiferentesTiposdeProdutos/src/Main.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DiferentesTiposdeProdutos/src/Main.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Pizza.java" partName="Pizza.java" path="/home/ester/Documentos/Coursera/Curso Java/PreçodaPizza/src/Pizza.java" title="Pizza.java" tooltip="PreçodaPizza/src/Pizza.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PreçodaPizza/src/Pizza.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="907" selectionTopPixel="258"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Carrinhodecompras.java" partName="Carrinhodecompras.java" path="/home/ester/Documentos/Coursera/Curso Java/PreçodaPizza/src/Carrinhodecompras.java" title="Carrinhodecompras.java" tooltip="PreçodaPizza/src/Carrinhodecompras.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PreçodaPizza/src/Carrinhodecompras.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="540" selectionTopPixel="3"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Produto.java" partName="Produto.java" path="/home/ester/Documentos/Coursera/CursoJava/DiferentesTiposdeProdutos/src/Produto.java" title="Produto.java" tooltip="DiferentesTiposdeProdutos/src/Produto.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DiferentesTiposdeProdutos/src/Produto.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="751" selectionTopPixel="81"/>
 </editor>
 </editors>
 <views>
@@ -58,18 +54,18 @@
 <filter element="*.class" isEnabled="false"/>
 </filters>
 <expanded>
-<element path="/PreçodaPizza"/>
-<element path="/PreçodaPizza/src"/>
+<element path="/DiferentesTiposdeProdutos"/>
+<element path="/DiferentesTiposdeProdutos/src"/>
 </expanded>
 <selection>
-<element path="/PreçodaPizza/src/Main.java"/>
+<element path="/DiferentesTiposdeProdutos/src/Produto.java"/>
 </selection>
 </viewState>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Warnings (1 item)"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="567" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
@@ -222,23 +218,20 @@
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
-<fastViewBars>
-<fastViewBar fastViewLocation="16384" id="left" orientation="512" selectedTabId="org.eclipse.ui.views.ResourceNavigator" style="0">
-<fastViews>
-<view id="org.eclipse.ui.views.ResourceNavigator" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
-</fastViewBars>
+<view id="org.eclipse.ui.views.ResourceNavigator"/>
+<fastViewBars/>
 <layout>
 <mainWindow>
 <info folder="true" part="left">
-<folder appearance="2" expanded="0">
+<folder activePageID="org.eclipse.ui.views.ResourceNavigator" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ResourceNavigator" label="Navigator"/>
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 <info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="753" ratioRight="251" relationship="2" relative="left">
@@ -284,55 +277,12 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/PreçodaPizza/src/Carrinhodecompras.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/PreçodaPizza/src/Pizza.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/PreçodaPizza/src/Main.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/PreçodaPizza/src/Carrinhodecompras.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DiferentesTiposdeProdutos/src/Produto.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/PreçodaPizza/src/Pizza.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/DiferentesTiposdeProdutos/src/Main"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DiferentesTiposdeProdutos/src/Main.java"/>
 </editors>
-<item historyLabel="Carrinhodecompras.java" index="0">
-<position info="not_deleted" x="350" y="0"/>
-</item>
-<item historyLabel="Pizza.java" index="1">
-<position info="not_deleted" x="273" y="0"/>
-</item>
-<item historyLabel="Main.java" index="2">
-<position info="not_deleted" x="153" y="210"/>
-</item>
-<item historyLabel="Pizza.java" index="1">
-<position info="not_deleted" x="791" y="0"/>
-</item>
-<item historyLabel="Main.java" index="2">
-<position info="not_deleted" x="612" y="0"/>
-</item>
-<item historyLabel="Carrinhodecompras.java" index="0">
-<position info="not_deleted" x="350" y="0"/>
-</item>
-<item historyLabel="Pizza.java" index="1">
-<position info="not_deleted" x="776" y="0"/>
-</item>
-<item historyLabel="Main.java" index="2">
-<position info="not_deleted" x="612" y="0"/>
-</item>
-<item historyLabel="Pizza.java" index="1">
-<position info="not_deleted" x="632" y="0"/>
-</item>
-<item historyLabel="Main.java" index="2">
-<position/>
-</item>
-<item historyLabel="Pizza.java" index="1">
-<position info="not_deleted" x="632" y="0"/>
-</item>
-<item historyLabel="Main.java" index="2">
-<position/>
-</item>
-<item historyLabel="Pizza.java" index="1">
-<position info="not_deleted" x="632" y="0"/>
-</item>
-<item historyLabel="Main.java" index="2">
-<position/>
-</item>
-<item historyLabel="Pizza.java" index="1">
-<position info="not_deleted" x="775" y="0"/>
-</item>
-<item historyLabel="Main.java" index="2">
-<position/>
-</item>
 <item historyLabel="Carrinhodecompras.java" index="0">
 <position info="not_deleted" x="377" y="0"/>
 </item>
@@ -432,8 +382,56 @@
 <item historyLabel="Pizza.java" index="1">
 <position info="not_deleted" x="907" y="0"/>
 </item>
-<item active="true" historyLabel="Main.java" index="2">
-<position info="not_deleted" x="730" y="0"/>
+<item historyLabel="Main.java" index="2">
+<position info="not_deleted" x="272" y="0"/>
+</item>
+<item historyLabel="Carrinhodecompras.java" index="3">
+<position info="not_deleted" x="380" y="0"/>
+</item>
+<item historyLabel="Produto.java" index="4">
+<position info="not_deleted" x="137" y="0"/>
+</item>
+<item historyLabel="Carrinhodecompras.java" index="3">
+<position info="not_deleted" x="380" y="0"/>
+</item>
+<item historyLabel="Main.java" index="2">
+<position info="not_deleted" x="272" y="0"/>
+</item>
+<item historyLabel="Pizza.java" index="5">
+<position info="not_deleted" x="907" y="0"/>
+</item>
+<item historyLabel="Carrinhodecompras.java" index="3">
+<position info="not_deleted" x="380" y="0"/>
+</item>
+<item historyLabel="Main.java" index="2">
+<position info="not_deleted" x="272" y="0"/>
+</item>
+<item historyLabel="Carrinhodecompras.java" index="3">
+<position info="not_deleted" x="380" y="0"/>
+</item>
+<item historyLabel="Main" index="6">
+<position info="not_deleted" x="29" y="0"/>
+</item>
+<item historyLabel="Main.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Produto.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Produto.java" index="4">
+<position info="not_deleted" x="641" y="0"/>
+</item>
+<item historyLabel="Produto.java" index="4">
+<position info="not_deleted" x="605" y="0"/>
+</item>
+<item historyLabel="Produto.java" index="4">
+<position info="not_deleted" x="606" y="0"/>
+</item>
+<item historyLabel="Produto.java" index="4">
+<position info="not_deleted" x="751" y="0"/>
+</item>
+<item active="true" historyLabel="Main.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -455,6 +453,15 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Produto.java" tooltip="DiferentesTiposdeProdutos/src/Produto.java">
+<persistable path="/DiferentesTiposdeProdutos/src/Produto.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="DiferentesTiposdeProdutos/src/Main.java">
+<persistable path="/DiferentesTiposdeProdutos/src/Main.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="Main" tooltip="DiferentesTiposdeProdutos/src/Main">
+<persistable path="/DiferentesTiposdeProdutos/src/Main"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Carrinhodecompras.java" tooltip="PreçodaPizza/src/Carrinhodecompras.java">
 <persistable path="/PreçodaPizza/src/Carrinhodecompras.java"/>
 </file>

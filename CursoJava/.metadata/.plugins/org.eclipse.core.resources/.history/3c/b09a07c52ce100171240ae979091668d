@@ -1,0 +1,8 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class CarrinhodeCOmpra {
+	HashMap ListaProdutos<String, Integer>() = new Hashmap<String, Integer>;
+	
+	
+}

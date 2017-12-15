@@ -1,0 +1,41 @@
+
+public class Produto {
+	
+	private String nome;
+	private int codigo;
+	private float preço;
+	
+	// set e get dos atributos privados
+	
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public int getCodigo() {
+		return codigo;
+	}
+	public void setCodigo(int codigo) {
+		this.codigo = codigo;
+	}
+	public float getPreço() {
+		return preço;
+	}
+	public void setPreço(float preço) {
+		this.preço = preço;
+	}
+	
+	// sobrescrita do metodo equals
+	
+	public boolean equals(int teste) {
+	      boolean result = false;
+	      if (this.codigo == teste.getcodigo()) {
+	         result = true;
+	      }
+	      return result;
+	}
+
+	
+	
+}

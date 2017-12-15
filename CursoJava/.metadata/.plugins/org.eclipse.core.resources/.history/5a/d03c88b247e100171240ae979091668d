@@ -1,0 +1,13 @@
+import java.util.HashMap;
+import java.util.Map;
+public class CarrinhoDeCompra {
+
+	Map<Produto,Integer> itenscompra;
+	
+	public void adicionaProduto(Produto produto,int quantidade){
+		itenscompra = new HashMap<Produto,Integer>();
+		for (int i=0; i < itenscompra.size(); i++){
+		itenscompra.put(produto, quantidade);		
+		}
+	}
+}

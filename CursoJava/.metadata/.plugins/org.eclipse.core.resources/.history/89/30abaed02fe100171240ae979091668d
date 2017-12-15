@@ -1,0 +1,20 @@
+
+public class ProdutoComTamanho extends Produto {
+
+	private int tamanho;
+
+	
+	// get e set
+	
+	public int getTamanho() {
+	return tamanho;
+	}
+
+	public void setTamanho(int tamanho) {
+		this.tamanho = tamanho;
+	}
+	
+	// sobrescrita do método equals
+		
+
+}

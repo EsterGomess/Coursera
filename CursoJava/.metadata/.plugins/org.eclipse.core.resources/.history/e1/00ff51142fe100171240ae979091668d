@@ -1,0 +1,35 @@
+
+public class Produto {
+	
+	public String nome;
+	public int codigo;
+	public float preço;
+	
+	
+	// sobrescrita do metodo equals
+	
+	@Override
+	public boolean equals(Object obj){    
+      
+ 
+        if(obj  instanceof Produto && ((Produto)obj).codigo==this.Codigo()){
+ 
+            return true;   
+ 
+        }else{
+ 
+            return false;  
+        }
+}
+	
+	// sobrescrita do método hashcode
+	
+	@Override
+		public int hashCode(){
+	
+		return this.Codigo() * 2;
+		}
+
+	
+	
+}

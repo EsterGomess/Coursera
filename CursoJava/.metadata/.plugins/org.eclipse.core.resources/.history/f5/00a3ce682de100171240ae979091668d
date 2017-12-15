@@ -1,0 +1,11 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class CarrinhodeCOmpra extends Produto {
+	
+	private int tamanho;
+	Map<String,Integer> listaProdutos ; 
+	
+	
+	
+}

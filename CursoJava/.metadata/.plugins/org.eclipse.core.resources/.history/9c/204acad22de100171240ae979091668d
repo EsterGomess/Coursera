@@ -1,0 +1,24 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class CarrinhodeCOmpra  {
+	
+	private int tamanho;
+	
+	// set e get do atributo
+	
+	public void settamanho(int tamanho){
+		this.tamanho = tamanho;
+	}
+	
+	public int gettamanho(){
+
+		return tamanho;
+	}
+	
+	// 
+	Map<String,Integer> listaProdutos ; 
+	
+	
+	
+}

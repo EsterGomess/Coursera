@@ -1,0 +1,16 @@
+
+public class ProdutoComTamanho extends Produto {
+
+	private int tamanho;
+
+	//métodos get e set
+	public int getTamanho() {
+		return tamanho;
+	}
+
+	public void setTamanho(int tamanho) {
+		this.tamanho = tamanho;
+	}
+	
+	
+}
