@@ -28,10 +28,11 @@ public class Produto {
  
         if(objeto  instanceof Produto && ((Produto)objeto).codigo==this.getCodigo()){
  
-            return true;   
+            //return true;   
  
         }else
-        	return false;  
+ 
+            return false;  
   
         
 }

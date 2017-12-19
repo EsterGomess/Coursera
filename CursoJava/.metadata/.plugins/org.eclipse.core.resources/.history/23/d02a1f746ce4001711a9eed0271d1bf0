@@ -20,20 +20,20 @@ public class Produto {
 		this.preço = preço;
 	}
 		
-	// sobrescrita do método equals
+	// sobrescrita do metodo equals
 	
 	@Override
-	public boolean equals(Object objeto){    
+	public boolean equals(Object obj){    
       
  
-        if(objeto  instanceof Produto && ((Produto)objeto).codigo==this.getCodigo()){
+        if(obj  instanceof Produto && ((Produto)obj).codigo==this.getCodigo()){
  
-            return true;   
+            //return true;   
  
-        }else
-        	return false;  
-  
-        
+        }else{
+ 
+            return false;  
+        }
 }
 	
 	// sobrescrita do método hashcode

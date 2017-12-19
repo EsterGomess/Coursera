@@ -26,12 +26,13 @@ public class Produto {
 	public boolean equals(Object objeto){    
       
  
-        if(objeto  instanceof Produto && ((Produto)objeto).codigo==this.getCodigo()){
+        if(obj  instanceof Produto && ((Produto)objeto).codigo==this.getCodigo()){
  
-            return true;   
+            //return true;   
  
         }else
-        	return false;  
+ 
+            return false;  
   
         
 }

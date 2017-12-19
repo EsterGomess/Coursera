@@ -23,15 +23,16 @@ public class Produto {
 	// sobrescrita do método equals
 	
 	@Override
-	public boolean equals(Object objeto){    
+	public boolean equals(Object obj){    
       
  
-        if(objeto  instanceof Produto && ((Produto)objeto).codigo==this.getCodigo()){
+        if(obj  instanceof Produto && ((Produto)obj).codigo==this.getCodigo()){
  
-            return true;   
+            //return true;   
  
         }else
-        	return false;  
+ 
+            return false;  
   
         
 }
